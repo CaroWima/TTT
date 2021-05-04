@@ -6,5 +6,5 @@ I thought using "x" and "o" was a bit boring so I made my own assets on pixilart
 
 For the code I followed this tutorial on youtube: https://www.youtube.com/watch?v=Rzhcb4M9-0Q&ab_channel=JustinKim
 
-I don't think I will be able to replicate this by heatr, but I do feel like I have a deeper understanding of JS.
+I don't think I will be able to replicate this by heart, but I do feel like I have a deeper understanding of JS.
 
