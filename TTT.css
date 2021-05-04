@@ -1,0 +1,80 @@
+
+body{
+    background: black;
+    
+}
+
+.container{
+    background-image: url(./TTT_pxlArt/woodenfloor.jpg);
+    background-size: 80%;
+    background-repeat: repeat-y repeat-x;
+    display:grid;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: xx-large;
+    justify-content: center;
+    color: white;
+    
+}
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    
+}
+
+.status span{
+    color: rgb(0, 255, 21);
+}
+
+.reset {
+    cursor: pointer;
+}
+
+.reset:hover{
+    color:red;
+}
+
+#gameboard { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 660px;
+    height: 660px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding-bottom: 10%;
+    }
+
+
+.bxbtn {
+    width:  90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border:transparent;
+    background-image: url(./TTT_pxlArt/Box.png);
+    margin: 3%;
+    font: 0/0 transparent;
+}
+
+.x::after {
+    content: url(/TTT_pxlArt/Crystals_TTT.png);
+    width: 80%;
+    padding: 20%;
+}
+
+.o::after {
+    content: url(/TTT_pxlArt/Skulls_TTT.png);
+    width: 90%;
+
+    
+}
+
+.won::after {
+    color:red;
+}
